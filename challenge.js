@@ -93,7 +93,6 @@ function requirement3() {
 }
 
 function requirement4() {
-  // TODO - decide whether to print something out
   const removed = students.pop();
   if (removed === undefined) {
     console.log("Nobody to remove");
@@ -172,6 +171,7 @@ function requirement14() {
     const newScore = Math.floor(Math.random() * 11);
     student.examScores.push(newScore);
   }
+  console.table(students);
 }
 
 function requirement15() {
